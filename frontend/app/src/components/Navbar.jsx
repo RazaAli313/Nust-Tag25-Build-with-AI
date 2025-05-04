@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { FiMenu, FiX, FiRadio } from "react-icons/fi";
+import { FiMenu, FiX, FiRadio, FiGlobe } from "react-icons/fi";
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -61,7 +61,13 @@ const Navbar = () => {
                   </motion.span>
                 </NavLink>
               ))}
-          
+              <motion.button
+                className="flex items-center text-white bg-blue-600 px-3 py-2 rounded-md text-sm font-medium"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <FiGlobe className="mr-1" /> EN/UR
+              </motion.button>
             </div>
           </div>
 
@@ -114,7 +120,8 @@ const Navbar = () => {
                 className="w-full flex items-center justify-center text-white bg-blue-600 px-3 py-2 rounded-md text-base font-medium mt-2"
                 whileHover={{ scale: 1.02 }}
               >
-             </motion.button>
+                <FiGlobe className="mr-2" /> Switch Language (EN/UR)
+              </motion.button>
             </div>
           </motion.div>
         )}
