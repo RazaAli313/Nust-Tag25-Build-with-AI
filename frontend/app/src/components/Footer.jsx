@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gradient-to-br from-blue-600 to-indigo-600 text-white">
                 <FiGlobe size={20} />
               </div>
-              <span className="ml-3 text-xl font-bold">AI News Anchor</span>
+              <span className="ml-3 text-xl font-bold">Anchora - AI News Anchor</span>
             </motion.div>
             <p className="mt-4 text-gray-400">
               Revolutionizing news delivery with artificial intelligence and
