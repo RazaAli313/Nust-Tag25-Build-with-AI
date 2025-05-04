@@ -31,7 +31,7 @@ const Navbar = () => {
               >
                 <FiRadio className="h-8 w-8 text-white" />
                 <span className="ml-2 text-white text-xl font-bold">
-                  AI News Anchor
+                 Anchora - AI News Anchor
                 </span>
               </motion.div>
             </Link>
