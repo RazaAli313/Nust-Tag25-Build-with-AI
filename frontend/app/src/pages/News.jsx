@@ -9,11 +9,9 @@ const News = () => {
   const [currentNews, setCurrentNews] = useState(0);
 
   const categories = [
-    { id: "all", name: "All News" },
-    { id: "politics", name: "Politics" },
-    { id: "technology", name: "Technology" },
-    { id: "sports", name: "Sports" },
-    { id: "business", name: "Business" },
+    { id: "English", name: "English" },
+    { id: "Urdu", name: "Urdu" },
+ 
   ];
 
   const newsItems = [
